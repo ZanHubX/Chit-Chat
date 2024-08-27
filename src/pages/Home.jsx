@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import zhangImage from "../assets/zhang.jpg";
+import zhangImage from "../assets/Zhang.jpg";
 import AquaChat from "../assets/AquaChat.png";
 
 
