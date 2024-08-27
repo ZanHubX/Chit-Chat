@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import zhangImage from "../assets/zhang.jpg";
 import AquaChat from "../assets/AquaChat.png";
-import "@dotlottie/player-component";
+
 
 const Sidebar = () => {
 
