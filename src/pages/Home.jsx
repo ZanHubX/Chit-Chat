@@ -3,12 +3,10 @@ import { useNavigate } from "react-router-dom";
 import zhangImage from "../assets/Zhang.png";
 import AquaChat from "../assets/AquaChat.png";
 
-
 const Sidebar = () => {
-
-   useEffect(() => {
-     import("@dotlottie/player-component");
-   }, []);
+  useEffect(() => {
+    import("@dotlottie/player-component");
+  }, []);
 
   const navigate = useNavigate();
 
@@ -20,8 +18,8 @@ const Sidebar = () => {
     <div className="w-full sm:w-1/3 md:w-1/4 bg-white border-r border-gray-300">
       {/* Sidebar Header */}
       <header className="p-4 border-b border-gray-300 flex justify-between items-center bg-[#8ab7d3] text-white">
-        <h1 className="text-2xl font-semibold w-1/6 h-auto"> 
-        {/* <span className="text-sm font-bold">AquaChat</span> */}
+        <h1 className="text-2xl font-semibold w-1/6 h-auto">
+          {/* <span className="text-sm font-bold">AquaChat</span> */}
           {React.createElement("dotlottie-player", {
             src: "https://lottie.host/a134ef0e-3829-4d2b-9c70-122cfd3bd42c/BTigdGsB2n.json",
             background: "transparent",
@@ -46,10 +44,12 @@ const Sidebar = () => {
         />
         {/* Add more contacts here */}
 
-        <div className="w-full flex justify-center mt-4 ">
+        <div class="ml-4 items-center justify-center mt-4">
           <button
-            className="bg-[#a2c0d3] absolute bottom-5 active:scale-90 py-2 text-lg border-2 rounded-2xl drop-shadow-xl border-[#2A4E67] hover:bg-[#2A4E67] hover:text-white w-full mx-auto text-center duration-200 max-w-xs"
-            onClick={handleLogout}
+            class="bg-[#a2c0d3] absolute items-center bottom-4 left-10 right-0  active:scale-95 py-2 text-lg md:text-xl lg:text-2xl 
+            border-2 rounded-2xl drop-shadow-xl border-[#2A4E67] hover:bg-[#2A4E67] hover:text-white 
+            w-2/12 md:w-2/12 lg:w-2/12 text-center duration-200 ease-in-out"
+            onClick="handleLogout"
           >
             Logout
           </button>
