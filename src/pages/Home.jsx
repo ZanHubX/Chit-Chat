@@ -23,7 +23,7 @@ const Sidebar = () => {
           {React.createElement("dotlottie-player", {
             src: "https://lottie.host/a134ef0e-3829-4d2b-9c70-122cfd3bd42c/BTigdGsB2n.json",
             background: "transparent",
-            speed: "1.5",
+            speed: "1.4",
             className:
               "border-gray-200 rounded-3xl drop-shadow-lg w-full h-auto max-w-xs mx-auto",
             loop: true,
