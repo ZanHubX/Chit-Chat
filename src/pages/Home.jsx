@@ -23,7 +23,7 @@ const Sidebar = () => {
           {React.createElement("dotlottie-player", {
             src: "https://lottie.host/a134ef0e-3829-4d2b-9c70-122cfd3bd42c/BTigdGsB2n.json",
             background: "transparent",
-            speed: "1.5",
+            speed: "1.4",
             className:
               "border-gray-200 rounded-3xl drop-shadow-lg w-full h-auto max-w-xs mx-auto",
             loop: true,
@@ -49,10 +49,11 @@ const Sidebar = () => {
             class="bg-[#a2c0d3] absolute items-center bottom-4 left-10 right-0  active:scale-95 py-2 text-lg md:text-xl lg:text-2xl 
             border-2 rounded-2xl drop-shadow-xl border-[#2A4E67] hover:bg-[#2A4E67] hover:text-white 
             w-2/12 md:w-2/12 lg:w-2/12 text-center duration-200 ease-in-out"
-            onClick="handleLogout"
+            onClick={handleLogout}
           >
             Logout
           </button>
+          
         </div>
       </div>
     </div>
