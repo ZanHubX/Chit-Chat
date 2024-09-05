@@ -29,6 +29,7 @@ const Sidebar = () => {
             loop: true,
             autoplay: true,
           })}
+        
         </h1>
         <Menu />
       </header>
@@ -36,7 +37,7 @@ const Sidebar = () => {
       {/* Contact List */}
       <div className="overflow-y-auto h-[calc(100vh-120px)] p-3">
         {/* Render contact items */}
-        <Contact name="Xing Mei" message="Hello!!" avatar={zhangImage} />
+        <Contact name="Wann" message="Hello!!" avatar={zhangImage} />
         <Contact
           name="Zhang"
           message="Last night’s hangout was lit! We gotta do that again."
@@ -207,5 +208,6 @@ const Home = () => {
     </div>
   );
 };
+
 
 export default Home;
