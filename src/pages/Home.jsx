@@ -197,7 +197,7 @@ const Home = () => {
             avatar="https://placehold.co/200x/ffa8e4/ffffff.svg?text=ʕ•́ᴥ•̀ʔ&font=Lato"
           />
           <ChatMessage
-            message="Hey, Wann! I'm chillin', just wrapped up a fire book. How 'bout you?"
+            message="Hey, Wann! I'm chillin',just wrapped up a fire book. How 'bout you?"
             type="outgoing"
             avatar="https://placehold.co/200x/b7a8ff/ffffff.svg?text=ʕ•́ᴥ•̀ʔ&font=Lato"
           />
