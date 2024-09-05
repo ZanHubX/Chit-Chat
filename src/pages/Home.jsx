@@ -183,7 +183,7 @@ const ChatInput = () => (
 );
 
 const Home = () => {
-  const currentContact = "Xing Mei";
+  const currentContact = "Wann";
 
   return (
     <div className="flex flex-col sm:flex-row h-screen overflow-hidden">
@@ -197,7 +197,7 @@ const Home = () => {
             avatar="https://placehold.co/200x/ffa8e4/ffffff.svg?text=ʕ•́ᴥ•̀ʔ&font=Lato"
           />
           <ChatMessage
-            message="Hey, Xing Mei! I'm chillin', just wrapped up a fire book. How 'bout you?"
+            message="Hey, Wann! I'm chillin', just wrapped up a fire book. How 'bout you?"
             type="outgoing"
             avatar="https://placehold.co/200x/b7a8ff/ffffff.svg?text=ʕ•́ᴥ•̀ʔ&font=Lato"
           />
