@@ -202,6 +202,11 @@ const Home = () => {
             avatar="https://placehold.co/200x/b7a8ff/ffffff.svg?text=ʕ•́ᴥ•̀ʔ&font=Lato"
           />
           {/* Add more ChatMessages here */}
+          <ChatMessage
+            message="Hey Wang, what's good?"
+            type="incoming"
+            avatar="https://placehold.co/200x/b7a8ff/ffffff.svg?text=ʕ•́ᴥ•̀ʔ&font=Lato"
+          />
         </div>
         <ChatInput />
       </div>
