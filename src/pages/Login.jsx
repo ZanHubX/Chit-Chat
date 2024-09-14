@@ -27,7 +27,7 @@ const Login = () => {
           background: "transparent",
           speed: "1",
           className:
-            " border-gray-200 rounded-2xl drop-shadow-lg block w-1/4 h-auto max-w-xs sm:max-w-sm md:max-w-md mx-auto ", // Reduced padding, narrower width, and margin-top added
+            " border-gray-200 rounded-3xl drop-shadow-lg block w-1/4 h-auto max-w-xs sm:max-w-sm md:max-w-md mx-auto ", // Reduced padding, narrower width, and margin-top added
           loop: true,
           autoplay: true,
         })}
