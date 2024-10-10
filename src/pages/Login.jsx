@@ -39,7 +39,7 @@ const Login = () => {
             <lord-icon
               src="https://cdn.lordicon.com/nzixoeyk.json"
               trigger="hover"
-              style={{ width: "20px", height: "20px" }}
+              style={{ width: "25px", height: "25px" }}
             ></lord-icon>
             
           </span>
