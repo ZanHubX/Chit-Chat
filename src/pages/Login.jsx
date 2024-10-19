@@ -52,7 +52,7 @@ const Login = () => {
           
         </div>
 
-        <div className="flex mt-5">
+        <div className="flex mt-1">
           <span className="inline-flex items-center px-3 text-sm text-gray-900  border border-e-0 border-gray-300 rounded-s-md bg-slate-100 dark:text-gray-400 dark:border-gray-600">
             <lord-icon
               src="https://cdn.lordicon.com/vyqvtrtg.json"
