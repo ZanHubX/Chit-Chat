@@ -14,7 +14,7 @@ const Login = () => {
     <div>
       <div className="text-center font-bold font-serif">
       
-        <p className="text-3xl">Welcome back!!</p>     
+        <p className="text-4xl sm:text-5xl">Welcome back!!</p>     
         <p className="text-lg">Sign in to continue</p>
       </div>
       <div className="p-1 border-gray-200 rounded-3xl drop-shadow-lg block w-1/4 h-auto max-w-xs sm:max-w-sm md:max-w-md mx-auto">
